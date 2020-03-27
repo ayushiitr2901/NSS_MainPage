@@ -1,0 +1,157 @@
+.footer-main-div{
+    background-color:#eee;
+
+}
+
+.footer{
+    margin-left: 100px;
+    width:90%;
+    margin: 0rem auto 0px auto;
+    padding-top: 130px;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+
+.footer-ul{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.logo-nss-footer-img{
+    height:50px;
+    width:50px;
+    margin-right: 10px;
+}
+.nss-heading-footer{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.footer-heading{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    /* text-decoration: underline; */
+}
+
+.contact-icons-ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:200px;
+    padding-left: 0;
+    /* margin: 0 auto 0 auto;     */
+}
+.contact-icons-ul > li{
+    
+   
+    /* margin-top: 0.5rem; */
+
+    width:50px;
+}
+.cells-list-footer>a>div{
+    margin-bottom: 0.5rem;
+}   
+.cells-list-footer>div>a{
+    color:inherit;
+    text-decoration: none;
+
+}   
+.pin-icon{
+    height:40px;
+    width:40px;
+}
+.address{
+    font-size: 1.2rem;
+}
+.address > span{
+    margin-left: 10px;
+    position:absolute;
+}
+.mail{
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+.mail>a{
+    color:inherit;
+}
+.mail>a>i{
+    margin-right: 20px;
+}
+.phone{
+    margin-top: 10px;
+}
+.phone>a{
+    color:inherit;
+}
+.phone>a>i{
+    margin-right: 20px;
+    
+}
+.footer-hr{
+    margin: 1rem 0 2rem 0;
+}
+.lop{
+    text-align: center;
+}
+@media screen and (max-width:1000px){
+    .footer-ul{
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-ul>li{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .contact-icons-ul{
+        margin-left: 30%;
+        /* margin-top: auto; */
+    }
+    .address{
+        font-size: .8rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pin-icon{
+        margin-left: 30px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .mail{
+        font-size: .9rem;
+    }
+    .phone{
+        font-size:.9rem;
+        margin-top: 20px;        
+    }
+    .kop{
+        float: left;
+        width: 10%;
+        margin-left: 20%;
+    }
+    .per{
+        float: right;
+        width: 60%;
+        margin-right: 30px;
+    }
+}
+
+
+@media screen and (max-width:648px) {
+    .footer{
+        background-color: #eee;
+        overflow: hidden;
+        width: 100%;
+        grid-template-columns: 1fr; 
+    }
+    .div1{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align : center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        /* border-bottom: 2px black solid; */
+    }
+}

@@ -1,0 +1,126 @@
+*{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+.bdc-donor-image{
+    height:100px;
+    width:70px
+}
+
+.figures{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1.4fr 2fr;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+
+}
+
+
+
+.counter-image{
+    width:100%;
+    margin-left: 20px;
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+}
+.counter-image > img{
+    width: 80%;
+    border-radius: 10% 0;
+    height: 85%;
+    margin-top: 13%;
+    margin-right: 100px;
+    /* margin-top:1rem; */
+}
+
+.our-achievements{
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    text-transform: uppercase;
+}
+
+.counter-data{
+    width:200px;
+    /* box-sizing: border-box; */
+    padding: 100px 25px 100px 25px;
+    border: 1px solid #eeeeee;
+    /* border:2px solid red; */
+
+    border-radius:10% 0;
+    background-color: palegoldenrod;
+    margin:10px
+}
+
+
+
+.counter-data:hover{
+    box-shadow: 5px 5px 10px 1px palegreen;
+    transition: all 0.26s ease-in;
+}
+
+.count{
+    font-size:2rem;
+    line-height: 2.2rem;
+    font-weight: 700;
+}
+
+.counter{
+    margin-top:4rem;
+    margin-right: 20px;
+}
+
+.count-title{
+    /* display: inline-block; */
+    /* vertical-align: bottom; */
+    margin-top:4rem;
+    font-size:1.3rem;
+    font-weight: 400;
+}
+@media screen and (max-width:1200px){
+    .count-title{
+        font-size: 1rem;
+    }
+    .count{
+        font-size: 1.5rem;
+
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .figures{
+        display: inline;
+    }
+   .counter-image{
+       display: none;
+   }
+   .counter-data{
+       width:150px;
+   }
+}
+
+.counters_div{
+    margin:30px 0px;
+    display:flex;
+    justify-content: center;
+    /* border:2px solid red; */
+    padding-right:5px;
+	width:100%;
+    height: inherit;
+
+}
+
+.other_than_image{
+    margin-top:50px;
+}
+.count{
+	height: 30%;
+    width:40%;
+    /* margin-left:20px; */
+    /* margin:0 auto; */
+}
+
